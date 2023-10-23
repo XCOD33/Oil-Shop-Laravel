@@ -56,7 +56,7 @@
                 <div class="container">
                     <!-- Logo -->
                     <div class="logo">
-                        <a href="index.html"><img class="img-responsive" src="images/logo.png" alt="" /></a>
+                        <a href="index.html"><img class="img-responsive" src="images/logo-nugimen.png" alt="" /></a>
                     </div>
                     <nav class="navbar ownmenu">
                         <div class="navbar-header">
