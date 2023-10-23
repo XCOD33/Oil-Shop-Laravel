@@ -22,7 +22,7 @@
                                 max-height: auto;
                                 white-space: nowrap;
                             ">
-                        The Latest Product from ecoshop
+                        The Latest Product from Nugimen Oil Shop
                     </div>
                     <!-- LAYER NR. 2 -->
                     <div class="tp-caption sfl font-extra-bold tp-resizeme" data-x="left" data-hoffset="0"
@@ -36,7 +36,7 @@
                                 text-transform: uppercase;
                                 white-space: nowrap;
                             ">
-                        <small class="font-regular">Rp</small>15000
+                        <small class="font-regular">Rp</small>15.000
                     </div>
                     <!-- LAYER NR. 2 -->
                     <div class="tp-caption sfr font-extra-bold tp-resizeme" data-x="left" data-hoffset="0"
@@ -94,7 +94,7 @@
                                 max-height: auto;
                                 white-space: nowrap;
                             ">
-                        The Latest Product from ecoshop
+                        The Latest Product from Nugimen Oil Shop
                     </div>
                     <!-- LAYER NR. 2 -->
                     <div class="tp-caption sfr font-regular tp-resizeme letter-space-4" data-x="center"
@@ -108,7 +108,7 @@
                                 text-transform: uppercase;
                                 white-space: nowrap;
                             ">
-                        look beautiful
+                        healthy oil
                     </div>
                     <!-- LAYER NR. 2 -->
                     <div class="tp-caption sfr font-extra-bold tp-resizeme letter-space-4" data-x="center"
@@ -122,7 +122,7 @@
                                 text-transform: uppercase;
                                 white-space: nowrap;
                             ">
-                        this season
+                        high quality
                     </div>
                     <!-- LAYER NR. 4 -->
                     <div class="tp-caption sfb font-extra-bold tp-resizeme" data-x="center" data-hoffset="120"
@@ -136,7 +136,7 @@
                                 text-transform: uppercase;
                                 white-space: nowrap;
                             ">
-                        <small class="font-regular">$</small> 299
+                        <small class="font-regular">Rp</small> 15.000
                     </div>
                     <!-- LAYER NR. 4 -->
                     <div class="tp-caption lfb tp-scrollbelowslider tp-resizeme" data-x="center" data-hoffset="-120"
