@@ -18,8 +18,8 @@
             <!-- Item -->
             <div class="item">
                 <!-- Images -->
-                <img class="img-1" src="images/arrival-1.png" alt=""> <img class="img-2"
-                    src="images/arrival-1.png" alt="">
+                <img class="img-1" src="images/arrival-1.png" alt=""> <img class="img-2" src="images/arrival-1.png"
+                    alt="">
                 <!-- Overlay  -->
                 <div class="overlay">
                     <!-- Price -->
@@ -182,20 +182,24 @@
                         <!-- Overlay -->
                         <div class="overlay">
                             <div class="position-center-center">
-                                <div class="inn"><a href="images/produk-1.png" data-lighter><i
-                                            class="icon-magnifier"></i></a> <a href="#." data-toggle="tooltip"
-                                        data-placement="top" title="Add To Cart"><i class="icon-basket"></i></a> <a
-                                        href="#." data-toggle="tooltip" data-placement="top"
-                                        title="Add To WishList"><i class="icon-heart"></i></a></div>
+                                <div class="inn">
+                                    <a href="images/product-1.jpg" data-lighter>
+                                        <i class="icon-magnifier"></i>
+                                    </a>
+                                    <a class="product" data-product-id="1" data-toggle="tooltip" data-placement="top"
+                                        title="Add To Cart" style="cursor: pointer;">
+                                        <i class="icon-basket"></i>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <!-- Item Name -->
-                    <div class="item-name"> <a href="#.">sunco</a>
+                    <div class="item-name"> <a href="#."><span id="nameProduct1">sunco</span></a>
                         <p>Minyak yang kaya kandungan Vit E dan Pro-Vit A, serta antioksidan</p>
                     </div>
                     <!-- Price -->
-                    <span class="price"><small>Rp</small>20.000</span>
+                    <span class="price" data-price-id="1"><small>Rp</small>20.000</span>
                 </div>
 
                 <!-- Item -->
@@ -206,20 +210,22 @@
                         <!-- Overlay -->
                         <div class="overlay">
                             <div class="position-center-center">
-                                <div class="inn"><a href="images/produk-2.png" data-lighter><i
-                                            class="icon-magnifier"></i></a> <a href="#." data-toggle="tooltip"
-                                        data-placement="top" title="Add To Cart"><i class="icon-basket"></i></a> <a
-                                        href="#." data-toggle="tooltip" data-placement="top"
-                                        title="Add To WishList"><i class="icon-heart"></i></a></div>
+                                <div class="inn">
+                                    <a href="images/product-2.jpg" data-lighter><i class="icon-magnifier"></i>
+                                    </a>
+                                    <a class="product" data-product-id="2" data-toggle="tooltip" data-placement="top"
+                                        title="Add To Cart" style="cursor: pointer;"><i class="icon-basket"></i>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <!-- Item Name -->
-                    <div class="item-name"> <a href="#.">tropical</a>
+                    <div class="item-name"> <a href="#."><span id="nameProduct2">tropical</span></a>
                         <p>Minyak yang rendah kolesterol karena mengandung Omega-9, Pro-Vit A, Vit E</p>
                     </div>
                     <!-- Price -->
-                    <span class="price"><small>Rp</small>27.930</span>
+                    <span class="price" data-price-id="2"><small>Rp</small>27.930</span>
                 </div>
 
                 <!-- Item -->
@@ -230,20 +236,22 @@
                         <!-- Overlay -->
                         <div class="overlay">
                             <div class="position-center-center">
-                                <div class="inn"><a href="images/produk-3.png" data-lighter><i
-                                            class="icon-magnifier"></i></a> <a href="#." data-toggle="tooltip"
-                                        data-placement="top" title="Add To Cart"><i class="icon-basket"></i></a> <a
-                                        href="#." data-toggle="tooltip" data-placement="top"
-                                        title="Add To WishList"><i class="icon-heart"></i></a></div>
+                                <div class="inn">
+                                    <a href="images/product-3.jpg" data-lighter><i class="icon-magnifier"></i>
+                                    </a>
+                                    <a class="product" data-product-id="3" data-toggle="tooltip" data-placement="top"
+                                        title="Add To Cart" style="cursor: pointer;"><i class="icon-basket"></i>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <!-- Item Name -->
-                    <div class="item-name"> <a href="#.">tropicana slim</a>
+                    <div class="item-name"> <a href="#."><span id="nameProduct3">tropicana slim</span></a>
                         <p>Minyak yang terbuat dari gula jagung dan rendah kalori</p>
                     </div>
                     <!-- Price -->
-                    <span class="price"><small>Rp</small>80.000</span>
+                    <span class="price" data-price-id="3"><small>Rp</small>80.000</span>
                 </div>
 
                 <!-- Item -->
@@ -254,20 +262,22 @@
                         <!-- Overlay -->
                         <div class="overlay">
                             <div class="position-center-center">
-                                <div class="inn"><a href="images/produk-4.png" data-lighter><i
-                                            class="icon-magnifier"></i></a> <a href="#." data-toggle="tooltip"
-                                        data-placement="top" title="Add To Cart"><i class="icon-basket"></i></a> <a
-                                        href="#." data-toggle="tooltip" data-placement="top"
-                                        title="Add To WishList"><i class="icon-heart"></i></a></div>
+                                <div class="inn">
+                                    <a href="images/product-4.jpg" data-lighter><i class="icon-magnifier"></i>
+                                    </a>
+                                    <a class="product" data-product-id="4" data-toggle="tooltip" data-placement="top"
+                                        title="Add To Cart" style="cursor: pointer;"><i class="icon-basket"></i>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <!-- Item Name -->
-                    <div class="item-name"> <a href="#.">kunci mas</a>
+                    <div class="item-name"> <a href="#."><span id="nameProduct4">kunci mas</span></a>
                         <p>Minyak yang mengandung bebas lemak, antioksidan alami, Vit E, Omega-6 dan 9</p>
                     </div>
                     <!-- Price -->
-                    <span class="price"><small>Rp</small>15.100</span>
+                    <span class="price" data-price-id="4"><small>Rp</small>15.100</span>
                 </div>
             </div>
         </div>
@@ -348,4 +358,90 @@
             </div>
         </div>
     </section>
+@endsection
+
+@section('js')
+    <script>
+        $(document).ready(function() {
+
+            fetch_cart();
+
+            $('.product').click(function() {
+                var productId = $(this).data('product-id');
+                var nameProduct = $('#nameProduct' + productId).text();
+                var priceProduct = $(this).closest('.item').find('.price[data-price-id="' + productId +
+                    '"]').text();
+                console.log(priceProduct);
+                var imageProduct = 'images/product-' + productId + '.jpg';
+                $.ajax({
+                    url: "{{ route('frontend.cart.add') }}",
+                    method: "POST",
+                    data: {
+                        name_product: nameProduct,
+                        price_product: priceProduct,
+                        image_product: imageProduct,
+                        _token: '{{ csrf_token() }}'
+                    },
+                    success: function(data) {
+                        fetch_cart();
+
+                        Swal.fire({
+                            icon: 'success',
+                            title: 'Success',
+                            text: 'Add to cart success!',
+                            timer: 1500
+                        })
+                    }
+                });
+            })
+        })
+
+        function fetch_cart() {
+            $.ajax({
+                url: "{{ route('frontend.cart.get') }}",
+                method: "GET",
+                success: function(data) {
+                    $('.cart-items').empty();
+                    console.log(data)
+
+                    // Iterasi melalui data dan buat elemen <li> untuk setiap produk
+                    for (var i = 0; i < data.length; i++) {
+                        var product = data[i];
+
+                        // Buat elemen <li> dan isinya sesuai dengan data produk
+                        var li = $('<li>');
+                        var mediaLeft = $('<div class="media-left">');
+                        var cartImg = $('<div class="cart-img">');
+                        var img = $('<img class="media-object img-responsive" alt="...">');
+                        img.attr('src', product.image_product);
+                        cartImg.append(img);
+                        mediaLeft.append(cartImg);
+
+                        var mediaBody = $('<div class="media-body">');
+                        var heading = $('<h6 class="media-heading">').text(product.name_product);
+
+                        // Menghilangkan simbol mata uang dan mengonversi harga ke tipe data numerik
+                        var price = parseFloat(product.price_product.replace('$', ''));
+                        var priceText = price.toFixed(2) + " USD"; // Menampilkan harga dengan dua angka desimal
+                        var priceSpan = $('<span class="price">').text(priceText);
+
+                        // Memastikan atribut "quantity" ada dalam data produk
+                        var qty = product.hasOwnProperty('quantity') ? '<span class="qty">QTY: ' + product
+                            .quantity + '</span>' : '';
+
+                        mediaBody.append(heading);
+                        mediaBody.append(priceSpan);
+                        mediaBody.append(qty);
+
+                        li.append(mediaLeft);
+                        li.append(mediaBody);
+
+                        // Tambahkan elemen <li> ke daftar belanja
+                        $('.cart-items').append(li);
+                    }
+
+                }
+            })
+        }
+    </script>
 @endsection
