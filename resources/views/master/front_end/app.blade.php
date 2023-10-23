@@ -77,11 +77,31 @@
             </div>
         </header>
 
-        <!--======= HOME MAIN SLIDER =========-->
-        @include('master.front_end.components.slider')
+        @if (route('frontend.index') == url()->current())
+            @include('master.front_end.components.home_slider')
+        @endif
 
-        <!-- Content -->
-        @yield('content')
+        @if (route('frontend.login') == url()->current())
+            @includeIf('master.front_end.components.sub_banner', [
+                'name' => 'LOGIN',
+            ])
+        @endif
+
+        @if (route('frontend.register') == url()->current())
+            @includeIf('master.front_end.components.sub_banner', [
+                'name' => 'REGISTER',
+            ])
+        @endif
+
+        <div id="content">
+            @yield('content')
+        </div>
+
+        <!-- About -->
+        @include('master.front_end.components.about')
+
+        <!-- News Letter -->
+        @include('master.front_end.components.news_letter')
 
         <!--======= FOOTER =========-->
         @include('master.front_end.components.footer')

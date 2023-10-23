@@ -16,4 +16,6 @@ use Illuminate\Support\Facades\Route;
 
 Route::controller(FrontEndController::class)->group(function () {
     Route::get('/', 'index')->name('frontend.index');
+    Route::get('/login', 'login')->name('frontend.login');
+    Route::get('/register', 'register')->name('frontend.register');
 });
