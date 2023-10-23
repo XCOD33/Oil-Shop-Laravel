@@ -186,7 +186,7 @@
                         <div class="overlay">
                             <div class="position-center-center">
                                 <div class="inn">
-                                    <a href="images/product-1.jpg" data-lighter>
+                                    <a href="images/produk-1.png" data-lighter>
                                         <i class="icon-magnifier"></i>
                                     </a>
                                     <a class="product" data-product-id="1" data-toggle="tooltip" data-placement="top"
@@ -214,7 +214,7 @@
                         <div class="overlay">
                             <div class="position-center-center">
                                 <div class="inn">
-                                    <a href="images/product-2.jpg" data-lighter><i class="icon-magnifier"></i>
+                                    <a href="images/produk-2.png" data-lighter><i class="icon-magnifier"></i>
                                     </a>
                                     <a class="product" data-product-id="2" data-toggle="tooltip" data-placement="top"
                                         title="Add To Cart" style="cursor: pointer;"><i class="icon-basket"></i>
@@ -240,7 +240,7 @@
                         <div class="overlay">
                             <div class="position-center-center">
                                 <div class="inn">
-                                    <a href="images/product-3.jpg" data-lighter><i class="icon-magnifier"></i>
+                                    <a href="images/produk-3.png" data-lighter><i class="icon-magnifier"></i>
                                     </a>
                                     <a class="product" data-product-id="3" data-toggle="tooltip" data-placement="top"
                                         title="Add To Cart" style="cursor: pointer;"><i class="icon-basket"></i>
@@ -266,7 +266,7 @@
                         <div class="overlay">
                             <div class="position-center-center">
                                 <div class="inn">
-                                    <a href="images/product-4.jpg" data-lighter><i class="icon-magnifier"></i>
+                                    <a href="images/produk-4.png" data-lighter><i class="icon-magnifier"></i>
                                     </a>
                                     <a class="product" data-product-id="4" data-toggle="tooltip" data-placement="top"
                                         title="Add To Cart" style="cursor: pointer;"><i class="icon-basket"></i>
