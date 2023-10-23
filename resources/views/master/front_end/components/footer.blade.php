@@ -5,30 +5,16 @@
             <div class="about-footer">
                 <img class="margin-bottom-30" src="images/logo-nugimen.png" alt="" />
                 <p>
-                    <i class="icon-pointer"></i> Street No. 12,
-                    Newyork 12, <br />
-                    MD - 123, USA.
+                    <i class="icon-pointer"></i> Ngawen, Trihanggo, Gamping<br />
+                    Sleman, D.I.Yogyakarta
                 </p>
                 <p>
                     <i class="icon-call-end"></i> 1.800.123.456789
                 </p>
                 <p>
-                    <i class="icon-envelope"></i> info@ecoshop.com
+                    <i class="icon-envelope"></i> info@nugimenoilshop.com
                 </p>
             </div>
-        </div>
-
-        <!-- HELPFUL LINKS -->
-        <div class="col-md-3">
-            <h6>HELPFUL LINKS</h6>
-            <ul class="link">
-                <li><a href="#."> Products</a></li>
-                <li><a href="#."> Find a Store</a></li>
-                <li><a href="#."> Features</a></li>
-                <li><a href="#."> Privacy Policy</a></li>
-                <li><a href="#."> Blog</a></li>
-                <li><a href="#."> Press Kit </a></li>
-            </ul>
         </div>
 
         <!-- SHOP -->
@@ -36,11 +22,7 @@
             <h6>SHOP</h6>
             <ul class="link">
                 <li><a href="#."> About Us</a></li>
-                <li><a href="#."> Career</a></li>
-                <li><a href="#."> Shipping Methods</a></li>
                 <li><a href="#."> Contact</a></li>
-                <li><a href="#."> Support</a></li>
-                <li><a href="#."> Retailer</a></li>
             </ul>
         </div>
 
@@ -59,7 +41,7 @@
         <!-- Rights -->
 
         <div class="rights">
-            <p>© 2016 ecoshop All right reserved.</p>
+            <p>© 2023 Nugimen Oil Shop All right reserved.</p>
             <div class="scroll">
                 <a href="#wrap" class="go-up"><i class="lnr lnr-arrow-up"></i></a>
             </div>

@@ -17,7 +17,7 @@
                         style="
                                 z-index: 7;
                                 font-size: 18px;
-                                color: #fff;
+                                color: #000;
                                 max-width: auto;
                                 max-height: auto;
                                 white-space: nowrap;
@@ -36,7 +36,7 @@
                                 text-transform: uppercase;
                                 white-space: nowrap;
                             ">
-                        <small class="font-regular">$</small>299
+                        <small class="font-regular">Rp</small>15000
                     </div>
                     <!-- LAYER NR. 2 -->
                     <div class="tp-caption sfr font-extra-bold tp-resizeme" data-x="left" data-hoffset="0"
@@ -50,7 +50,7 @@
                                 text-transform: uppercase;
                                 white-space: nowrap;
                             ">
-                        featured
+                        Minyak
                     </div>
                     <!-- LAYER NR. 2 -->
                     <div class="tp-caption sfr font-extra-bold tp-resizeme" data-x="left" data-hoffset="0"
@@ -64,7 +64,7 @@
                                 text-transform: uppercase;
                                 white-space: nowrap;
                             ">
-                        cycle
+                        Kelapa Sawit
                     </div>
                     <!-- LAYER NR. 4 -->
                     <div class="tp-caption lfb tp-resizeme" data-x="left" data-hoffset="0" data-y="center"

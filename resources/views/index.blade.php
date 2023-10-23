@@ -8,8 +8,7 @@
             <!-- Main Heading -->
             <div class="heading text-center">
                 <h4>new arrival</h4>
-                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus maximus vehicula.
-                    Sed feugiat, tellus vel tristique posuere, diam</span>
+                <span>Be among the first to discover exciting new options in the world of cooking oils and culinary essentials. Stay ahead of the culinary curve with our newest arrivals, carefully curated for your culinary delight.</span>
             </div>
         </div>
 
@@ -24,13 +23,13 @@
                 <!-- Overlay  -->
                 <div class="overlay">
                     <!-- Price -->
-                    <span class="price"><small>$</small>299</span>
+                    <span class="price"><small>Rp</small>23.500</span>
                     <div class="position-center-center"> <a href="images/arrival-1.png" data-lighter><i
                                 class="icon-magnifier"></i></a> </div>
                 </div>
                 <!-- Item Name -->
-                <div class="item-name"> <a href="#.">wooden chair</a>
-                    <p>Lorem ipsum dolor sit amet</p>
+                <div class="item-name"> <a href="#.">bimoli</a>
+                    <p>Minyak goreng yang diperkaya Vit E dan Pro-Vit A, Omega-6 dan Omega-9</p>
                 </div>
             </div>
 
@@ -42,13 +41,13 @@
                 <!-- Overlay  -->
                 <div class="overlay">
                     <!-- Price -->
-                    <span class="price"><small>$</small>299</span>
+                    <span class="price"><small>Rp</small>13.000</span>
                     <div class="position-center-center"> <a href="images/arrival-2.png" data-lighter><i
                                 class="icon-magnifier"></i></a> </div>
                 </div>
                 <!-- Item Name -->
-                <div class="item-name"> <a href="#.">MINIMALIST WOO TOYS</a>
-                    <p>Lorem ipsum dolor sit amet</p>
+                <div class="item-name"> <a href="#.">minyakita</a>
+                    <p>Minyak goreng yang berkualitas dengan dilengkapi Vit A dan Vit B, rendah kandungan lemak jenuh</p>
                 </div>
             </div>
 
@@ -60,13 +59,13 @@
                 <!-- Overlay  -->
                 <div class="overlay">
                     <!-- Price -->
-                    <span class="price"><small>$</small>299</span>
+                    <span class="price"><small>Rp</small>16.100</span>
                     <div class="position-center-center"> <a href="images/arrival-3.png" data-lighter><i
                                 class="icon-magnifier"></i></a> </div>
                 </div>
                 <!-- Item Name -->
-                <div class="item-name"> <a href="#.">Concrete Shaving Kit</a>
-                    <p>Lorem ipsum dolor sit amet</p>
+                <div class="item-name"> <a href="#.">fortune</a>
+                    <p>Minyak goreng yang mengandung Omega-3 dan Omega-9, serta Vit A dan Vit E</p>
                 </div>
             </div>
 
@@ -78,13 +77,13 @@
                 <!-- Overlay  -->
                 <div class="overlay">
                     <!-- Price -->
-                    <span class="price"><small>$</small>299</span>
+                    <span class="price"><small>Rp</small>28.900</span>
                     <div class="position-center-center"> <a href="images/arrival-4.png" data-lighter><i
                                 class="icon-magnifier"></i></a> </div>
                 </div>
                 <!-- Item Name -->
-                <div class="item-name"> <a href="#.">PARAGON PENDANT</a>
-                    <p>Lorem ipsum dolor sit amet</p>
+                <div class="item-name"> <a href="#.">barco</a>
+                    <p>Minyak goreng yang terbuat dari kelapa sawit dan baik dikonsumsi untuk diet</p>
                 </div>
             </div>
 
@@ -96,13 +95,13 @@
                 <!-- Overlay  -->
                 <div class="overlay">
                     <!-- Price -->
-                    <span class="price"><small>$</small>299</span>
+                    <span class="price"><small>Rp</small>16.450</span>
                     <div class="position-center-center"> <a href="images/arrival-5.png" data-lighter><i
                                 class="icon-magnifier"></i></a> </div>
                 </div>
                 <!-- Item Name -->
-                <div class="item-name"> <a href="#.">crative lamp</a>
-                    <p>Lorem ipsum dolor sit amet</p>
+                <div class="item-name"> <a href="#.">forvita</a>
+                    <p>Minyak goreng yang mengandung Vit E serta kaya akan antioksidan</p>
                 </div>
             </div>
 
@@ -114,13 +113,13 @@
                 <!-- Overlay  -->
                 <div class="overlay">
                     <!-- Price -->
-                    <span class="price"><small>$</small>299</span>
+                    <span class="price"><small>Rp</small>17.000</span>
                     <div class="position-center-center"> <a href="images/arrival-6.png" data-lighter><i
                                 class="icon-magnifier"></i></a> </div>
                 </div>
                 <!-- Item Name -->
-                <div class="item-name"> <a href="#.">ECO FRIENDLY</a>
-                    <p>Lorem ipsum dolor sit amet</p>
+                <div class="item-name"> <a href="#.">rose brand</a>
+                    <p>Minyak kelapa sawit dengan kandungan BETA karoten, Omega-9, Vit A dan E</p>
                 </div>
             </div>
 
@@ -132,13 +131,13 @@
                 <!-- Overlay  -->
                 <div class="overlay">
                     <!-- Price -->
-                    <span class="price"><small>$</small>299</span>
+                    <span class="price"><small>Rp</small>17.000</span>
                     <div class="position-center-center"> <a href="images/arrival-7.png" data-lighter><i
                                 class="icon-magnifier"></i></a> </div>
                 </div>
                 <!-- Item Name -->
-                <div class="item-name"> <a href="#.">GEOMETRY STOOL</a>
-                    <p>Lorem ipsum dolor sit amet</p>
+                <div class="item-name"> <a href="#.">filma</a>
+                    <p>Minyak yang mengandung asam lemak tak jenuh, Omega-3 dan 9, serta Vit D</p>
                 </div>
             </div>
 
@@ -150,13 +149,13 @@
                 <!-- Overlay  -->
                 <div class="overlay">
                     <!-- Price -->
-                    <span class="price"><small>$</small>299</span>
+                    <span class="price"><small>Rp</small>18.500</span>
                     <div class="position-center-center"> <a href="images/arrival-8.png" data-lighter><i
                                 class="icon-magnifier"></i></a> </div>
                 </div>
                 <!-- Item Name -->
-                <div class="item-name"> <a href="#.">CERAMIC STONE VASE</a>
-                    <p>Lorem ipsum dolor sit amet</p>
+                <div class="item-name"> <a href="#.">sania</a>
+                    <p>Minyak goreng yang terbuat dari VCO dan kelapa sawit pilihan</p>
                 </div>
             </div>
         </div>
@@ -169,8 +168,7 @@
             <!-- Main Heading -->
             <div class="heading text-center">
                 <h4>popular products</h4>
-                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus maximus vehicula.
-                    Sed feugiat, tellus vel tristique posuere, diam</span>
+                <span>Explore our handpicked selection of popular products that our customers love. From premium cooking oils to culinary essentials, these items have earned their place at the top of our list.</span>
             </div>
 
             <!-- Popular Item Slide -->
@@ -193,11 +191,11 @@
                         </div>
                     </div>
                     <!-- Item Name -->
-                    <div class="item-name"> <a href="#.">stone cup</a>
-                        <p>Lorem ipsum dolor sit amet</p>
+                    <div class="item-name"> <a href="#.">sunco</a>
+                        <p>Minyak yang kaya kandungan Vit E dan Pro-Vit A, serta antioksidan</p>
                     </div>
                     <!-- Price -->
-                    <span class="price"><small>$</small>299</span>
+                    <span class="price"><small>Rp</small>20.000</span>
                 </div>
 
                 <!-- Item -->
@@ -217,11 +215,11 @@
                         </div>
                     </div>
                     <!-- Item Name -->
-                    <div class="item-name"> <a href="#.">gray bag</a>
-                        <p>Lorem ipsum dolor sit amet</p>
+                    <div class="item-name"> <a href="#.">tropical</a>
+                        <p>Minyak yang rendah kolesterol karena mengandung Omega-9, Pro-Vit A, Vit E</p>
                     </div>
                     <!-- Price -->
-                    <span class="price"><small>$</small>299</span>
+                    <span class="price"><small>Rp</small>27.930</span>
                 </div>
 
                 <!-- Item -->
@@ -241,11 +239,11 @@
                         </div>
                     </div>
                     <!-- Item Name -->
-                    <div class="item-name"> <a href="#.">chiar</a>
-                        <p>Lorem ipsum dolor sit amet</p>
+                    <div class="item-name"> <a href="#.">tropicana slim</a>
+                        <p>Minyak yang terbuat dari gula jagung dan rendah kalori</p>
                     </div>
                     <!-- Price -->
-                    <span class="price"><small>$</small>299</span>
+                    <span class="price"><small>Rp</small>80.000</span>
                 </div>
 
                 <!-- Item -->
@@ -265,11 +263,11 @@
                         </div>
                     </div>
                     <!-- Item Name -->
-                    <div class="item-name"> <a href="#.">STool</a>
-                        <p>Lorem ipsum dolor sit amet</p>
+                    <div class="item-name"> <a href="#.">kunci mas</a>
+                        <p>Minyak yang mengandung bebas lemak, antioksidan alami, Vit E, Omega-6 dan 9</p>
                     </div>
                     <!-- Price -->
-                    <span class="price"><small>$</small>299</span>
+                    <span class="price"><small>Rp</small>15.100</span>
                 </div>
             </div>
         </div>

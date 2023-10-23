@@ -3,10 +3,8 @@
 
         <!-- Main Heading -->
         <div class="heading text-center">
-            <h4>about ecoshop</h4>
-            <p>Phasellus lacinia fermentum bibendum. Interdum et malesuada fames ac ante ipsumien lacus, eu posuere
-                odio luctus non. Nulla lacinia,
-                eros vel fermentum consectetur, risus purus tempc, et iaculis odio dolor in ex. </p>
+            <h4>about nugimen oil shop</h4>
+            <p>We proudly present ourselves as the premier source for all your cooking oil needs. With a diverse selection of high-quality cooking oils that we offer, we are committed to providing the best products to our customers.</p>
         </div>
 
         <!-- Social Icons -->
