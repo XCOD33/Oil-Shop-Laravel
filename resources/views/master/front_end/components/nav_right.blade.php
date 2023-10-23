@@ -10,7 +10,7 @@
                         <h6>HELLO! {{ auth()->user()->name }}</h6>
                     </li>
                     <li><a href="#">MY CART</a></li>
-                    <li><a id="logout" style="cursor: pointer;">LOG OUT</a></li>
+                    <li><a class="logout" style="cursor: pointer;">LOG OUT</a></li>
                 </ul>
             @else
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"><i
@@ -110,7 +110,7 @@
 @section('js')
     <script>
         $(document).ready(function() {
-            $('#logout').click(function() {
+            $('.logout').on('click', function() {
                 Swal.fire({
                     title: 'Are you sure?',
                     text: "You want to logout?",
