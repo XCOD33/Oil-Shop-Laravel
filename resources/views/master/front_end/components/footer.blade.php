@@ -3,7 +3,7 @@
         <!-- ABOUT Location -->
         <div class="col-md-3">
             <div class="about-footer">
-                <img class="margin-bottom-30" src="images/logo-foot.png" alt="" />
+                <img class="margin-bottom-30" src="images/logo-nugimen.png" alt="" />
                 <p>
                     <i class="icon-pointer"></i> Street No. 12,
                     Newyork 12, <br />

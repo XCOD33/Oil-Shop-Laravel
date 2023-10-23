@@ -6,7 +6,7 @@
                 <!-- SLIDE  -->
                 <li data-transition="random" data-slotamount="7" data-masterspeed="300" data-saveperformance="off">
                     <!-- MAIN IMAGE -->
-                    <img src="images/slide-bg-1.jpg" alt="slider" data-bgposition="center center" data-bgfit="cover"
+                    <img src="images/slide-1.png" alt="slider" data-bgposition="center center" data-bgfit="cover"
                         data-bgrepeat="no-repeat" />
                     <!-- LAYERS -->
                     <!-- LAYER NR. 1 -->
@@ -78,7 +78,7 @@
                 <!-- SLIDE  -->
                 <li data-transition="random" data-slotamount="7" data-masterspeed="300" data-saveperformance="off">
                     <!-- MAIN IMAGE -->
-                    <img src="images/slide-bg-2.jpg" alt="slider" data-bgposition="center center" data-bgfit="cover"
+                    <img src="images/slide-2.png" alt="slider" data-bgposition="center center" data-bgfit="cover"
                         data-bgrepeat="no-repeat" />
                     <!-- LAYERS -->
                     <!-- LAYER NR. 1 -->

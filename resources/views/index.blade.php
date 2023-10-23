@@ -19,13 +19,13 @@
             <!-- Item -->
             <div class="item">
                 <!-- Images -->
-                <img class="img-1" src="images/item-img-1-1.jpg" alt=""> <img class="img-2"
-                    src="images/item-img-1-1-1.jpg" alt="">
+                <img class="img-1" src="images/arrival-1.png" alt=""> <img class="img-2" src="images/arrival-1.png"
+                    alt="">
                 <!-- Overlay  -->
                 <div class="overlay">
                     <!-- Price -->
                     <span class="price"><small>$</small>299</span>
-                    <div class="position-center-center"> <a href="images/item-img-1-1.jpg" data-lighter><i
+                    <div class="position-center-center"> <a href="images/arrival-1.png" data-lighter><i
                                 class="icon-magnifier"></i></a> </div>
                 </div>
                 <!-- Item Name -->
@@ -37,13 +37,13 @@
             <!-- Item -->
             <div class="item">
                 <!-- Images -->
-                <img class="img-1" src="images/item-img-1-2.jpg" alt=""> <img class="img-2"
-                    src="images/item-img-1-1-1.jpg" alt="">
+                <img class="img-1" src="images/arrival-2.png" alt=""> <img class="img-2"
+                    src="images/arrival-2.png" alt="">
                 <!-- Overlay  -->
                 <div class="overlay">
                     <!-- Price -->
                     <span class="price"><small>$</small>299</span>
-                    <div class="position-center-center"> <a href="images/item-img-1-2.jpg" data-lighter><i
+                    <div class="position-center-center"> <a href="images/arrival-2.png" data-lighter><i
                                 class="icon-magnifier"></i></a> </div>
                 </div>
                 <!-- Item Name -->
@@ -55,13 +55,13 @@
             <!-- Item -->
             <div class="item">
                 <!-- Images -->
-                <img class="img-1" src="images/item-img-1-3.jpg" alt=""> <img class="img-2"
-                    src="images/item-img-1-1-1.jpg" alt="">
+                <img class="img-1" src="images/arrival-3.png" alt=""> <img class="img-2"
+                    src="images/arrival-3.png" alt="">
                 <!-- Overlay  -->
                 <div class="overlay">
                     <!-- Price -->
                     <span class="price"><small>$</small>299</span>
-                    <div class="position-center-center"> <a href="images/item-img-1-3.jpg" data-lighter><i
+                    <div class="position-center-center"> <a href="images/arrival-3.png" data-lighter><i
                                 class="icon-magnifier"></i></a> </div>
                 </div>
                 <!-- Item Name -->
@@ -73,13 +73,13 @@
             <!-- Item -->
             <div class="item">
                 <!-- Images -->
-                <img class="img-1" src="images/item-img-1-4.jpg" alt=""> <img class="img-2"
-                    src="images/item-img-1-1-1.jpg" alt="">
+                <img class="img-1" src="images/arrival-4.png" alt=""> <img class="img-2"
+                    src="images/arrival-4.png" alt="">
                 <!-- Overlay  -->
                 <div class="overlay">
                     <!-- Price -->
                     <span class="price"><small>$</small>299</span>
-                    <div class="position-center-center"> <a href="images/item-img-1-4.jpg" data-lighter><i
+                    <div class="position-center-center"> <a href="images/arrival-4.png" data-lighter><i
                                 class="icon-magnifier"></i></a> </div>
                 </div>
                 <!-- Item Name -->
@@ -91,13 +91,13 @@
             <!-- Item -->
             <div class="item">
                 <!-- Images -->
-                <img class="img-1" src="images/item-img-1-5.jpg" alt=""> <img class="img-2"
-                    src="images/item-img-1-1-1.jpg" alt="">
+                <img class="img-1" src="images/arrival-5.png" alt=""> <img class="img-2"
+                    src="images/arrival-5.png" alt="">
                 <!-- Overlay  -->
                 <div class="overlay">
                     <!-- Price -->
                     <span class="price"><small>$</small>299</span>
-                    <div class="position-center-center"> <a href="images/item-img-1-5.jpg" data-lighter><i
+                    <div class="position-center-center"> <a href="images/arrival-5.png" data-lighter><i
                                 class="icon-magnifier"></i></a> </div>
                 </div>
                 <!-- Item Name -->
@@ -109,13 +109,13 @@
             <!-- Item -->
             <div class="item">
                 <!-- Images -->
-                <img class="img-1" src="images/item-img-1-6.jpg" alt=""> <img class="img-2"
-                    src="images/item-img-1-1-1.jpg" alt="">
+                <img class="img-1" src="images/arrival-6.png" alt=""> <img class="img-2"
+                    src="images/arrival-6.png" alt="">
                 <!-- Overlay  -->
                 <div class="overlay">
                     <!-- Price -->
                     <span class="price"><small>$</small>299</span>
-                    <div class="position-center-center"> <a href="images/item-img-1-6.jpg" data-lighter><i
+                    <div class="position-center-center"> <a href="images/arrival-6.png" data-lighter><i
                                 class="icon-magnifier"></i></a> </div>
                 </div>
                 <!-- Item Name -->
@@ -127,13 +127,13 @@
             <!-- Item -->
             <div class="item">
                 <!-- Images -->
-                <img class="img-1" src="images/item-img-1-7.jpg" alt=""> <img class="img-2"
-                    src="images/item-img-1-1-1.jpg" alt="">
+                <img class="img-1" src="images/arrival-7.png" alt=""> <img class="img-2"
+                    src="images/arrival-7.png" alt="">
                 <!-- Overlay  -->
                 <div class="overlay">
                     <!-- Price -->
                     <span class="price"><small>$</small>299</span>
-                    <div class="position-center-center"> <a href="images/item-img-1-7.jpg" data-lighter><i
+                    <div class="position-center-center"> <a href="images/arrival-7.png" data-lighter><i
                                 class="icon-magnifier"></i></a> </div>
                 </div>
                 <!-- Item Name -->
@@ -145,13 +145,13 @@
             <!-- Item -->
             <div class="item">
                 <!-- Images -->
-                <img class="img-1" src="images/item-img-1-8.jpg" alt=""> <img class="img-2"
-                    src="images/item-img-1-1-1.jpg" alt="">
+                <img class="img-1" src="images/arrival-8.png" alt=""> <img class="img-2"
+                    src="images/arrival-8.png" alt="">
                 <!-- Overlay  -->
                 <div class="overlay">
                     <!-- Price -->
                     <span class="price"><small>$</small>299</span>
-                    <div class="position-center-center"> <a href="images/item-img-1-8.jpg" data-lighter><i
+                    <div class="position-center-center"> <a href="images/arrival-8.png" data-lighter><i
                                 class="icon-magnifier"></i></a> </div>
                 </div>
                 <!-- Item Name -->
@@ -179,8 +179,8 @@
                 <!-- Item -->
                 <div class="item">
                     <!-- Item img -->
-                    <div class="item-img"> <img class="img-1" src="images/product-1.jpg" alt=""> <img
-                            class="img-2" src="images/product-2.jpg" alt="">
+                    <div class="item-img"> <img class="img-1" src="images/produk-1.png" alt=""> <img
+                            class="img-2" src="images/produk-1.png" alt="">
                         <!-- Overlay -->
                         <div class="overlay">
                             <div class="position-center-center">
@@ -207,8 +207,8 @@
                 <!-- Item -->
                 <div class="item">
                     <!-- Item img -->
-                    <div class="item-img"> <img class="img-1" src="images/product-2.jpg" alt=""> <img
-                            class="img-2" src="images/product-2.jpg" alt="">
+                    <div class="item-img"> <img class="img-1" src="images/produk-2.png" alt=""> <img
+                            class="img-2" src="images/produk-2.png" alt="">
                         <!-- Overlay -->
                         <div class="overlay">
                             <div class="position-center-center">
@@ -233,8 +233,8 @@
                 <!-- Item -->
                 <div class="item">
                     <!-- Item img -->
-                    <div class="item-img"> <img class="img-1" src="images/product-3.jpg" alt=""> <img
-                            class="img-2" src="images/product-2.jpg" alt="">
+                    <div class="item-img"> <img class="img-1" src="images/produk-3.png" alt=""> <img
+                            class="img-2" src="images/produk-3.png" alt="">
                         <!-- Overlay -->
                         <div class="overlay">
                             <div class="position-center-center">
@@ -259,8 +259,8 @@
                 <!-- Item -->
                 <div class="item">
                     <!-- Item img -->
-                    <div class="item-img"> <img class="img-1" src="images/product-4.jpg" alt=""> <img
-                            class="img-2" src="images/product-2.jpg" alt="">
+                    <div class="item-img"> <img class="img-1" src="images/produk-4.png" alt=""> <img
+                            class="img-2" src="images/produk-4.png" alt="">
                         <!-- Overlay -->
                         <div class="overlay">
                             <div class="position-center-center">
@@ -356,7 +356,7 @@
                 </div>
 
                 <!-- Img -->
-                <div class="col-sm-6"> <img class="img-responsive" src="images/testi-avatar.jpg" alt=""> </div>
+                <div class="col-sm-6"> <img class="img-responsive" src="images/cooking-girl.png" alt=""> </div>
             </div>
         </div>
     </section>
