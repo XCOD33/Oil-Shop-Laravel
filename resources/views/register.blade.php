@@ -17,76 +17,48 @@
                             <!-- ESTIMATE SHIPPING & TAX -->
                             <div class="col-sm-12">
                                 <h6>REGISTER</h6>
-                                <form>
+                                <form method="POST" action="{{ route('frontend.register_post') }}">
+                                    @csrf
                                     <ul class="row">
 
                                         <!-- Name -->
                                         <li class="col-md-6">
                                             <label> *FIRST NAME
-                                                <input type="text" name="first-name" value="" placeholder="">
+                                                <input type="text" name="first_name" value="" placeholder="">
                                             </label>
                                         </li>
                                         <!-- LAST NAME -->
                                         <li class="col-md-6">
                                             <label> *LAST NAME
-                                                <input type="text" name="last-name" value="" placeholder="">
+                                                <input type="text" name="last_name" value="" placeholder="">
                                             </label>
                                         </li>
 
                                         <!-- EMAIL ADDRESS -->
                                         <li class="col-md-6">
                                             <label> *EMAIL ADDRESS
-                                                <input type="text" name="contry-state" value="" placeholder="">
+                                                <input type="email" name="email" value="" placeholder="">
                                             </label>
                                         </li>
                                         <!-- PHONE -->
                                         <li class="col-md-6">
                                             <label> *PHONE
-                                                <input type="text" name="postal-code" value="" placeholder="">
+                                                <input type="text" name="phone" value="" placeholder="">
                                             </label>
                                         </li>
 
                                         <!-- LAST NAME -->
                                         <li class="col-md-6">
                                             <label> *PASSWORD
-                                                <input type="password" name="last-name" value="" placeholder="">
+                                                <input type="password" name="password" value="" placeholder="">
                                             </label>
                                         </li>
 
                                         <!-- LAST NAME -->
                                         <li class="col-md-6">
                                             <label> *PASSWORD
-                                                <input type="password" name="last-name" value="" placeholder="">
-                                            </label>
-                                        </li>
-                                        <li class="col-md-6">
-                                            <!-- ADDRESS -->
-                                            <label>*ADDRESS
-                                                <input type="text" name="address" value="" placeholder="">
-                                            </label>
-                                        </li>
-                                        <li class="col-md-6">
-                                            <!-- ADDRESS -->
-                                            <label>*ADDRESS
-                                                <input type="text" name="address" value="" placeholder="">
-                                            </label>
-                                        </li>
-
-                                        <!-- COUNTRY -->
-                                        <li class="col-md-6">
-                                            <label> COUNTRY
-                                                <select class="selectpicker" name="contry-state">
-                                                    <option>COUNTRY</option>
-                                                    <option>Country 2</option>
-                                                    <option>Country 3</option>
-                                                </select>
-                                            </label>
-                                        </li>
-
-                                        <!-- TOWN/CITY -->
-                                        <li class="col-md-6">
-                                            <label>*TOWN/CITY
-                                                <input type="text" name="town" value="" placeholder="">
+                                                <input type="password" name="password_confirm" value=""
+                                                    placeholder="">
                                             </label>
                                         </li>
 

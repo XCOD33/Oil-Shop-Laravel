@@ -17,19 +17,20 @@
                             <!-- ESTIMATE SHIPPING & TAX -->
                             <div class="col-sm-7">
                                 <h6>LOGIN YOUR ACCOUNT</h6>
-                                <form>
+                                <form method="POST" action="{{ route('frontend.login_post') }}">
+                                    @csrf
                                     <ul class="row">
 
                                         <!-- Name -->
                                         <li class="col-md-12">
-                                            <label> USERNAME
-                                                <input type="text" name="first-name" value="" placeholder="">
+                                            <label> Email
+                                                <input type="email" name="email" value="" placeholder="">
                                             </label>
                                         </li>
                                         <!-- LAST NAME -->
                                         <li class="col-md-12">
                                             <label> PASSWORD
-                                                <input type="password" name="last-name" value="" placeholder="">
+                                                <input type="password" name="password" value="" placeholder="">
                                             </label>
                                         </li>
 

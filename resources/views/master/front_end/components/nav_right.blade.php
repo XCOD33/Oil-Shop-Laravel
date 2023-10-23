@@ -2,18 +2,29 @@
     <ul class="navbar-right">
         <!-- USER INFO -->
         <li class="dropdown user-acc">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"><i class="icon-user"></i>
-            </a>
-            <ul class="dropdown-menu">
-                <li>
-                    <h6>HELLO! Jhon Smith</h6>
-                </li>
-                <li><a href="#">MY CART</a></li>
-                <li>
-                    <a href="#">ACCOUNT INFO</a>
-                </li>
-                <li><a href="#">LOG OUT</a></li>
-            </ul>
+            @if (Auth::check())
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"><i class="icon-user"></i>
+                </a>
+                <ul class="dropdown-menu">
+                    <li>
+                        <h6>HELLO! {{ auth()->user()->name }}</h6>
+                    </li>
+                    <li><a href="#">MY CART</a></li>
+                    <li><a id="logout" style="cursor: pointer;">LOG OUT</a></li>
+                </ul>
+            @else
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"><i
+                        class="icon-user"></i>
+                </a>
+                <ul class="dropdown-menu">
+                    <li>
+                        <h6>HELLO! GUEST</h6>
+                    <li>
+                        <a href="{{ route('frontend.login') }}">LOGIN</a>
+                    </li>
+                    <li><a href="{{ route('frontend.register') }}">REGISTER</a></li>
+                </ul>
+            @endif
         </li>
 
         <!-- USER BASKET -->
@@ -92,3 +103,43 @@
         </li>
     </ul>
 </div>
+
+@section('js')
+    <script>
+        $(document).ready(function() {
+            $('#logout').click(function() {
+                Swal.fire({
+                    title: 'Are you sure?',
+                    text: "You want to logout?",
+                    icon: 'warning',
+                    showCancelButton: true,
+                    confirmButtonColor: '#d33',
+                    cancelButtonColor: '#3085d6',
+                    confirmButtonText: 'Logout'
+                }).then((result) => {
+                    if (result.isConfirmed) {
+                        $.ajax({
+                            url: "{{ route('frontend.logout') }}",
+                            method: "POST",
+                            data: {
+                                _token: "{{ csrf_token() }}"
+                            },
+                            success: function(response) {
+                                Swal.fire(
+                                    'Logout!',
+                                    'You are logout.',
+                                    'success'
+                                ).then((result) => {
+                                    if (result.isConfirmed) {
+                                        window.location.href =
+                                            "{{ route('frontend.index') }}";
+                                    }
+                                })
+                            }
+                        })
+                    }
+                })
+            })
+        })
+    </script>
+@endsection
