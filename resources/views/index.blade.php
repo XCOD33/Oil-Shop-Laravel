@@ -8,7 +8,9 @@
             <!-- Main Heading -->
             <div class="heading text-center">
                 <h4>new arrival</h4>
-                <span>Be among the first to discover exciting new options in the world of cooking oils and culinary essentials. Stay ahead of the culinary curve with our newest arrivals, carefully curated for your culinary delight.</span>
+                <span>Be among the first to discover exciting new options in the world of cooking oils and culinary
+                    essentials. Stay ahead of the culinary curve with our newest arrivals, carefully curated for your
+                    culinary delight.</span>
             </div>
         </div>
 
@@ -168,7 +170,8 @@
             <!-- Main Heading -->
             <div class="heading text-center">
                 <h4>popular products</h4>
-                <span>Explore our handpicked selection of popular products that our customers love. From premium cooking oils to culinary essentials, these items have earned their place at the top of our list.</span>
+                <span>Explore our handpicked selection of popular products that our customers love. From premium cooking
+                    oils to culinary essentials, these items have earned their place at the top of our list.</span>
             </div>
 
             <!-- Popular Item Slide -->
@@ -332,12 +335,21 @@
             fetch_cart();
 
             $('.product').click(function() {
+                var user = '{{ Auth::user() }}';
+                if (user == '') {
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Oops...',
+                        text: 'You must login first!',
+                    })
+                    return false;
+                }
                 var productId = $(this).data('product-id');
                 var nameProduct = $('#nameProduct' + productId).text();
                 var priceProduct = $(this).closest('.item').find('.price[data-price-id="' + productId +
                     '"]').text();
                 console.log(priceProduct);
-                var imageProduct = 'images/product-' + productId + '.jpg';
+                var imageProduct = 'images/produk-' + productId + '.png';
                 $.ajax({
                     url: "{{ route('frontend.cart.add') }}",
                     method: "POST",
@@ -386,9 +398,14 @@
                         var heading = $('<h6 class="media-heading">').text(product.name_product);
 
                         // Menghilangkan simbol mata uang dan mengonversi harga ke tipe data numerik
-                        var price = parseFloat(product.price_product.replace('$', ''));
-                        var priceText = price.toFixed(2) + " USD"; // Menampilkan harga dengan dua angka desimal
-                        var priceSpan = $('<span class="price">').text(priceText);
+                        var priceText = product
+                            .price_product; // Biarkan format harga seperti yang diterima dari data
+                        var price = parseFloat(priceText.replace('Rp', '').replace('.', '').replace(',',
+                            '.')); // Hilangkan simbol "Rp" dan ubah format angka
+                        var priceFormatted = "Rp " + price.toLocaleString('id-ID', {
+                            minimumFractionDigits: 0
+                        }); // Format harga dengan pemisah ribuan
+                        var priceSpan = $('<span class="price">').text(priceFormatted);
 
                         // Memastikan atribut "quantity" ada dalam data produk
                         var qty = product.hasOwnProperty('quantity') ? '<span class="qty">QTY: ' + product
