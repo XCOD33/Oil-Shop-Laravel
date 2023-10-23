@@ -17,5 +17,8 @@ use Illuminate\Support\Facades\Route;
 Route::controller(FrontEndController::class)->group(function () {
     Route::get('/', 'index')->name('frontend.index');
     Route::get('/login', 'login')->name('frontend.login');
+    Route::post('/login', 'login_post')->name('frontend.login_post');
     Route::get('/register', 'register')->name('frontend.register');
+    Route::post('/register', 'register_post')->name('frontend.register_post');
+    Route::post('/logout', 'logout')->name('frontend.logout');
 });

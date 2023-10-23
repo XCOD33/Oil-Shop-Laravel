@@ -41,6 +41,25 @@
 </head>
 
 <body>
+    <!-- Sweetalert -->
+    @if (session()->has('error'))
+        @php
+            alert()->error('Error', session()->get('error'));
+        @endphp
+    @endif
+
+    @if (session()->has('success'))
+        @php
+            alert()->success('Success', session()->get('success'));
+        @endphp
+    @endif
+
+    @if ($errors->any())
+        @php
+            alert()->html('Error', implode('<br>', $errors->all()), 'error');
+        @endphp
+    @endif
+
     <!-- LOADER -->
     <div id="loader">
         <div class="position-center-center">
@@ -119,6 +138,8 @@
     <script type="text/javascript" src="{{ asset('rs-plugin/js/jquery.tp.min.js') }}"></script>
     <script src="{{ asset('js/main.js') }}"></script>
     <script src="{{ asset('js/main.js') }}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    @include('sweetalert::alert')
 
     @yield('js')
 </body>
