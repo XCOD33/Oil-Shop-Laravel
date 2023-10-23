@@ -7,7 +7,7 @@
 
             <!-- Main Heading -->
             <div class="heading text-center">
-                <h4>new arrival</h4>
+                <h4 id="test">new arrival</h4>
                 <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus maximus vehicula.
                     Sed feugiat, tellus vel tristique posuere, diam</span>
             </div>
@@ -184,20 +184,24 @@
                         <!-- Overlay -->
                         <div class="overlay">
                             <div class="position-center-center">
-                                <div class="inn"><a href="images/product-1.jpg" data-lighter><i
-                                            class="icon-magnifier"></i></a> <a href="#." data-toggle="tooltip"
-                                        data-placement="top" title="Add To Cart"><i class="icon-basket"></i></a> <a
-                                        href="#." data-toggle="tooltip" data-placement="top"
-                                        title="Add To WishList"><i class="icon-heart"></i></a></div>
+                                <div class="inn">
+                                    <a href="images/product-1.jpg" data-lighter>
+                                        <i class="icon-magnifier"></i>
+                                    </a>
+                                    <a class="product" data-product-id="1" data-toggle="tooltip" data-placement="top"
+                                        title="Add To Cart" style="cursor: pointer;">
+                                        <i class="icon-basket"></i>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <!-- Item Name -->
-                    <div class="item-name"> <a href="#.">stone cup</a>
+                    <div class="item-name"> <a href="#."><span id="nameProduct1">stone cup</span></a>
                         <p>Lorem ipsum dolor sit amet</p>
                     </div>
                     <!-- Price -->
-                    <span class="price"><small>$</small>299</span>
+                    <span class="price" data-price-id="1"><small>$</small>299</span>
                 </div>
 
                 <!-- Item -->
@@ -208,20 +212,22 @@
                         <!-- Overlay -->
                         <div class="overlay">
                             <div class="position-center-center">
-                                <div class="inn"><a href="images/product-2.jpg" data-lighter><i
-                                            class="icon-magnifier"></i></a> <a href="#." data-toggle="tooltip"
-                                        data-placement="top" title="Add To Cart"><i class="icon-basket"></i></a> <a
-                                        href="#." data-toggle="tooltip" data-placement="top"
-                                        title="Add To WishList"><i class="icon-heart"></i></a></div>
+                                <div class="inn">
+                                    <a href="images/product-2.jpg" data-lighter><i class="icon-magnifier"></i>
+                                    </a>
+                                    <a class="product" data-product-id="2" data-toggle="tooltip" data-placement="top"
+                                        title="Add To Cart" style="cursor: pointer;"><i class="icon-basket"></i>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <!-- Item Name -->
-                    <div class="item-name"> <a href="#.">gray bag</a>
+                    <div class="item-name"> <a href="#."><span id="nameProduct2">gray bag</span></a>
                         <p>Lorem ipsum dolor sit amet</p>
                     </div>
                     <!-- Price -->
-                    <span class="price"><small>$</small>299</span>
+                    <span class="price" data-price-id="2"><small>$</small>299</span>
                 </div>
 
                 <!-- Item -->
@@ -232,20 +238,22 @@
                         <!-- Overlay -->
                         <div class="overlay">
                             <div class="position-center-center">
-                                <div class="inn"><a href="images/product-3.jpg" data-lighter><i
-                                            class="icon-magnifier"></i></a> <a href="#." data-toggle="tooltip"
-                                        data-placement="top" title="Add To Cart"><i class="icon-basket"></i></a> <a
-                                        href="#." data-toggle="tooltip" data-placement="top"
-                                        title="Add To WishList"><i class="icon-heart"></i></a></div>
+                                <div class="inn">
+                                    <a href="images/product-3.jpg" data-lighter><i class="icon-magnifier"></i>
+                                    </a>
+                                    <a class="product" data-product-id="3" data-toggle="tooltip" data-placement="top"
+                                        title="Add To Cart" style="cursor: pointer;"><i class="icon-basket"></i>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <!-- Item Name -->
-                    <div class="item-name"> <a href="#.">chiar</a>
+                    <div class="item-name"> <a href="#."><span id="nameProduct3">chiar</span></a>
                         <p>Lorem ipsum dolor sit amet</p>
                     </div>
                     <!-- Price -->
-                    <span class="price"><small>$</small>299</span>
+                    <span class="price" data-price-id="3"><small>$</small>299</span>
                 </div>
 
                 <!-- Item -->
@@ -256,20 +264,22 @@
                         <!-- Overlay -->
                         <div class="overlay">
                             <div class="position-center-center">
-                                <div class="inn"><a href="images/product-4.jpg" data-lighter><i
-                                            class="icon-magnifier"></i></a> <a href="#." data-toggle="tooltip"
-                                        data-placement="top" title="Add To Cart"><i class="icon-basket"></i></a> <a
-                                        href="#." data-toggle="tooltip" data-placement="top"
-                                        title="Add To WishList"><i class="icon-heart"></i></a></div>
+                                <div class="inn">
+                                    <a href="images/product-4.jpg" data-lighter><i class="icon-magnifier"></i>
+                                    </a>
+                                    <a class="product" data-product-id="4" data-toggle="tooltip" data-placement="top"
+                                        title="Add To Cart" style="cursor: pointer;"><i class="icon-basket"></i>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <!-- Item Name -->
-                    <div class="item-name"> <a href="#.">STool</a>
+                    <div class="item-name"> <a href="#."><span id="nameProduct4">STool</span></a>
                         <p>Lorem ipsum dolor sit amet</p>
                     </div>
                     <!-- Price -->
-                    <span class="price"><small>$</small>299</span>
+                    <span class="price" data-price-id="4"><small>$</small>299</span>
                 </div>
             </div>
         </div>
@@ -350,4 +360,90 @@
             </div>
         </div>
     </section>
+@endsection
+
+@section('js')
+    <script>
+        $(document).ready(function() {
+
+            fetch_cart();
+
+            $('.product').click(function() {
+                var productId = $(this).data('product-id');
+                var nameProduct = $('#nameProduct' + productId).text();
+                var priceProduct = $(this).closest('.item').find('.price[data-price-id="' + productId +
+                    '"]').text();
+                console.log(priceProduct);
+                var imageProduct = 'images/product-' + productId + '.jpg';
+                $.ajax({
+                    url: "{{ route('frontend.cart.add') }}",
+                    method: "POST",
+                    data: {
+                        name_product: nameProduct,
+                        price_product: priceProduct,
+                        image_product: imageProduct,
+                        _token: '{{ csrf_token() }}'
+                    },
+                    success: function(data) {
+                        fetch_cart();
+
+                        Swal.fire({
+                            icon: 'success',
+                            title: 'Success',
+                            text: 'Add to cart success!',
+                            timer: 1500
+                        })
+                    }
+                });
+            })
+        })
+
+        function fetch_cart() {
+            $.ajax({
+                url: "{{ route('frontend.cart.get') }}",
+                method: "GET",
+                success: function(data) {
+                    $('.cart-items').empty();
+                    console.log(data)
+
+                    // Iterasi melalui data dan buat elemen <li> untuk setiap produk
+                    for (var i = 0; i < data.length; i++) {
+                        var product = data[i];
+
+                        // Buat elemen <li> dan isinya sesuai dengan data produk
+                        var li = $('<li>');
+                        var mediaLeft = $('<div class="media-left">');
+                        var cartImg = $('<div class="cart-img">');
+                        var img = $('<img class="media-object img-responsive" alt="...">');
+                        img.attr('src', product.image_product);
+                        cartImg.append(img);
+                        mediaLeft.append(cartImg);
+
+                        var mediaBody = $('<div class="media-body">');
+                        var heading = $('<h6 class="media-heading">').text(product.name_product);
+
+                        // Menghilangkan simbol mata uang dan mengonversi harga ke tipe data numerik
+                        var price = parseFloat(product.price_product.replace('$', ''));
+                        var priceText = price.toFixed(2) + " USD"; // Menampilkan harga dengan dua angka desimal
+                        var priceSpan = $('<span class="price">').text(priceText);
+
+                        // Memastikan atribut "quantity" ada dalam data produk
+                        var qty = product.hasOwnProperty('quantity') ? '<span class="qty">QTY: ' + product
+                            .quantity + '</span>' : '';
+
+                        mediaBody.append(heading);
+                        mediaBody.append(priceSpan);
+                        mediaBody.append(qty);
+
+                        li.append(mediaLeft);
+                        li.append(mediaBody);
+
+                        // Tambahkan elemen <li> ke daftar belanja
+                        $('.cart-items').append(li);
+                    }
+
+                }
+            })
+        }
+    </script>
 @endsection

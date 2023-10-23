@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Cache;
 
 class FrontEndController extends Controller
 {
@@ -68,5 +69,38 @@ class FrontEndController extends Controller
         auth()->logout();
 
         return redirect()->route('frontend.index')->with('success', 'You have logged out successfully!');
+    }
+
+    public function cart_add(Request $request)
+    {
+        $req = [
+            'name_product' => $request->name_product,
+            'price_product' => $request->price_product,
+            'image_product' => $request->image_product,
+        ];
+
+        $userId = auth()->user()->id;
+        $cacheKey = $userId . ' cart';
+
+        $cache = Cache::get($cacheKey, []);
+
+        // Periksa apakah produk dengan nama yang sama sudah ada dalam cache
+        if (!in_array($req['name_product'], array_column($cache, 'name_product'))) {
+            // Produk belum ada dalam cache, tambahkan produk
+            $cache[] = $req;
+
+            // Simpan kembali ke cache
+            Cache::put($cacheKey, $cache, 60);
+        }
+    }
+
+    public function cart_get()
+    {
+        $userId = auth()->user()->id;
+        $cacheKey = $userId . ' cart';
+
+        $cache = Cache::get($cacheKey, []);
+
+        return response()->json($cache);
     }
 }

@@ -21,4 +21,7 @@ Route::controller(FrontEndController::class)->group(function () {
     Route::get('/register', 'register')->name('frontend.register');
     Route::post('/register', 'register_post')->name('frontend.register_post');
     Route::post('/logout', 'logout')->name('frontend.logout');
+
+    Route::post('/cart/add', 'cart_add')->name('frontend.cart.add');
+    Route::get('/cart/get', 'cart_get')->name('frontend.cart.get');
 });

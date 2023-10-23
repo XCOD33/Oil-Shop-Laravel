@@ -33,7 +33,10 @@
                 aria-expanded="true"><i class="icon-basket-loaded"></i>
             </a>
             <ul class="dropdown-menu">
-                <li>
+                <div class="cart-items">
+
+                </div>
+                {{-- <li>
                     <div class="media-left">
                         <div class="cart-img">
                             <a href="#">
@@ -65,42 +68,42 @@
                         <span class="qty">QTY: 01</span>
                     </div>
                 </li>
-                <li>
-                    <h5 class="text-center">
-                        SUBTOTAL: 258.00 USD
-                    </h5>
-                </li>
-                <li class="margin-0">
-                    <div class="row">
-                        <div class="col-xs-6">
-                            <a href="shopping-cart.html" class="btn">VIEW CART</a>
-                        </div>
-                        <div class="col-xs-6">
-                            <a href="checkout.html" class="btn">CHECK OUT</a>
-                        </div>
-                    </div>
-                </li>
-            </ul>
+                <li> --}}
+                <h5 class="text-center">
+                    SUBTOTAL: 258.00 USD
+                </h5>
         </li>
-
-        <!-- SEARCH BAR -->
-        <li class="dropdown">
-            <a href="javascript:void(0);" class="search-open"><i class="icon-magnifier"></i></a>
-            <div class="search-inside animated bounceInUp">
-                <i class="icon-close search-close"></i>
-                <div class="search-overlay"></div>
-                <div class="position-center-center">
-                    <div class="search">
-                        <form>
-                            <input type="search" placeholder="Search Shop" />
-                            <button type="submit">
-                                <i class="icon-check"></i>
-                            </button>
-                        </form>
-                    </div>
+        <li class="margin-0">
+            <div class="row">
+                <div class="col-xs-6">
+                    <a href="shopping-cart.html" class="btn">VIEW CART</a>
+                </div>
+                <div class="col-xs-6">
+                    <a href="checkout.html" class="btn">CHECK OUT</a>
                 </div>
             </div>
         </li>
+    </ul>
+    </li>
+
+    <!-- SEARCH BAR -->
+    <li class="dropdown">
+        <a href="javascript:void(0);" class="search-open"><i class="icon-magnifier"></i></a>
+        <div class="search-inside animated bounceInUp">
+            <i class="icon-close search-close"></i>
+            <div class="search-overlay"></div>
+            <div class="position-center-center">
+                <div class="search">
+                    <form>
+                        <input type="search" placeholder="Search Shop" />
+                        <button type="submit">
+                            <i class="icon-check"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </li>
     </ul>
 </div>
 
