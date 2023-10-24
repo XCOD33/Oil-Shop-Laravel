@@ -3,8 +3,7 @@
     <div class="position-center-center">
         <div class="container">
             <h4>{{ $name }}</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus maximus vehicula.
-                Sed feugiat, tellus vel tristique posuere, diam</p>
+            <p>{{ $description }}</p>
             <ol class="breadcrumb">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">PAGES</a></li>

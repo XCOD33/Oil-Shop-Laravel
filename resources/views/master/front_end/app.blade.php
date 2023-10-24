@@ -8,6 +8,7 @@
     <meta name="description" content="" />
     <meta name="author" content="M_Adnan" />
     <title>ECOSHOP - Multipurpose eCommerce HTML5 Template</title>
+    <link rel="icon" href="images/logo-nugimen.png" type="image/x-icon">
 
     <!-- SLIDER REVOLUTION 4.x CSS SETTINGS -->
     <link rel="stylesheet" type="text/css" href="{{ asset('rs-plugin/css/settings.css') }}" media="screen" />
@@ -103,12 +104,28 @@
         @if (route('frontend.login') == url()->current())
             @includeIf('master.front_end.components.sub_banner', [
                 'name' => 'LOGIN',
+                'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus maximus vehicula. Sed feugiat, tellus vel tristique posuere, diam'
             ])
         @endif
 
         @if (route('frontend.register') == url()->current())
             @includeIf('master.front_end.components.sub_banner', [
                 'name' => 'REGISTER',
+                'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus maximus vehicula. Sed feugiat, tellus vel tristique posuere, diam'
+            ])
+        @endif
+
+        @if (route('frontend.about') == url()->current())
+            @includeIf('master.front_end.components.sub_banner', [
+                'name' => 'ABOUT',
+                'description' => 'Learn about the journey that brought us here, our commitment to quality, and our dedication to serving you.'
+            ])
+        @endif
+
+        @if (route('frontend.contact') == url()->current())
+            @includeIf('master.front_end.components.sub_banner', [
+                'name' => 'CONTACT',
+                'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus maximus vehicula. Sed feugiat, tellus vel tristique posuere, diam'
             ])
         @endif
 
@@ -119,8 +136,6 @@
         <!-- About -->
         @include('master.front_end.components.about')
 
-        <!-- News Letter -->
-        @include('master.front_end.components.news_letter')
 
         <!--======= FOOTER =========-->
         @include('master.front_end.components.footer')

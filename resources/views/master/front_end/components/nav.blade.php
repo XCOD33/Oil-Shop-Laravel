@@ -4,8 +4,8 @@
             <a href="{{ route('frontend.index') }}">Home</a>
         </li>
         <li>
-            <a href="about-us_01.html">About </a>
+            <a href="{{ route('frontend.about') }}">About </a>
         </li>
-        <li><a href="contact.html"> contact</a></li>
+        <li><a href="{{ route('frontend.contact') }}"> contact</a></li>
     </ul>
 </div>
