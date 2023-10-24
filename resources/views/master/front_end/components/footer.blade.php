@@ -31,9 +31,6 @@
             <h6>MY ACCOUNT</h6>
             <ul class="link">
                 <li><a href="#."> Login</a></li>
-                <li><a href="#."> My Account</a></li>
-                <li><a href="#."> My Cart</a></li>
-                <li><a href="#."> Wishlist</a></li>
                 <li><a href="#."> Checkout</a></li>
             </ul>
         </div>

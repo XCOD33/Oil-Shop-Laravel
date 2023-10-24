@@ -146,4 +146,14 @@ class FrontEndController extends Controller
 
         return response()->json($cache);
     }
+
+    public function about()
+    {
+        return view('about-us');
+    }
+
+    public function contact()
+    {
+        return view('contact');
+    }
 }

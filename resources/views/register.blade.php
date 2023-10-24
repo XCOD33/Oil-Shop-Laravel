@@ -75,10 +75,5 @@
             </div>
         </section>
 
-        <!-- About -->
-        @include('master.front_end.components.about')
-
-        <!-- News Letter -->
-        @include('master.front_end.components.news_letter')
     </div>
 @endsection

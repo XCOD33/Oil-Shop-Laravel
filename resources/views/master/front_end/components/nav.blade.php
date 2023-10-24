@@ -3,11 +3,11 @@
         <li class="{{ route('frontend.index') == url()->current() ? 'active' : '' }}">
             <a href="{{ route('frontend.index') }}">Home</a>
         </li>
-        <li>
-            <a href="about-us_01.html">About </a>
+        <li class="{{ route('frontend.about') == url()->current() ? 'active' : '' }}">
+            <a href="{{ route('frontend.about') }}">About </a>
         </li>
-        <li>
-            <a href="contact.html"> contact</a>
+        <li class="{{ route('frontend.contact') == url()->current() ? 'active' : '' }}">
+            <a href="{{ route('frontend.contact') }}"> contact</a>
         </li>
         <li class="{{ route('frontend.checkout') == url()->current() ? 'active' : '' }}">
             <a href="{{ route('frontend.checkout') }}">Checkout</a>

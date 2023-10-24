@@ -27,4 +27,6 @@ Route::controller(FrontEndController::class)->group(function () {
 
     Route::post('/cart/add', 'cart_add')->name('frontend.cart.add');
     Route::get('/cart/get', 'cart_get')->name('frontend.cart.get');
+    Route::get('/about', 'about')->name('frontend.about');
+    Route::get('/contact', 'contact')->name('frontend.contact');
 });
