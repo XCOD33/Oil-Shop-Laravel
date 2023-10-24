@@ -54,10 +54,10 @@
               <div class="contact-info">
                 <h6>OUR ADDRESS</h6>
                 <ul>
-                  <li> <i class="icon-map-pin"></i> Street No. 12, Newyork 12,<br>
-                    MD - 123, USA.</li>
+                  <li> <i class="icon-map-pin"></i> Ngawen, Trihanggo, Gamping,<br>
+                    Sleman, D.I.Yogyakarta</li>
                   <li> <i class="icon-call-end"></i> 1.800.123.456789</li>
-                  <li> <i class="icon-envelope"></i> <a href="mailto:someone@example.com" target="_top">info@ecoshop.com</a> </li>
+                  <li> <i class="icon-envelope"></i> <a href="mailto:info@nugimenoilshop.com" target="_top"> info@nugimenoilshop.com</a> </li>
                   <li>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam erat turpis, pellentesque non leo eget.</p>
                   </li>
@@ -68,8 +68,5 @@
         </div>
       </div>
     </section>
-    
-    <!--======= MAP =========-->
-    <div id="map"></div>
 </div>
 @endsection

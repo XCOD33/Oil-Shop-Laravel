@@ -105,14 +105,14 @@
         @if (route('frontend.login') == url()->current())
             @includeIf('master.front_end.components.sub_banner', [
                 'name' => 'LOGIN',
-                'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus maximus vehicula. Sed feugiat, tellus vel tristique posuere, diam'
+                'description' => "Please log in to your account to access your order history, manage your preferences, and expedite your shopping experience. Your account is your portal to seamless shopping with us. Sign in and let's get started."
             ])
         @endif
 
         @if (route('frontend.register') == url()->current())
             @includeIf('master.front_end.components.sub_banner', [
                 'name' => 'REGISTER',
-                'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus maximus vehicula. Sed feugiat, tellus vel tristique posuere, diam'
+                'description' => "Register an account with us to enjoy a personalized shopping experience. You'll gain access to exclusive offers, tailored recommendations, and more."
             ])
         @endif
 
@@ -126,7 +126,7 @@
         @if (route('frontend.contact') == url()->current())
             @includeIf('master.front_end.components.sub_banner', [
                 'name' => 'CONTACT',
-                'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus maximus vehicula. Sed feugiat, tellus vel tristique posuere, diam'
+                'description' => "Whether you need assistance with an order or simply want to reach out, don't hesitate to contact us. We value your input and are committed to providing excellent customer service. We look forward to hearing from you."
             ])
         @endif
 

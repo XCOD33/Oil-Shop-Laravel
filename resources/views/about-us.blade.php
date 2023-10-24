@@ -14,7 +14,7 @@
                 </div>
                 
                 <!-- IMG --> 
-                <img class="img-responsive margin-top-80 margin-bottom-80" src="images/about-img.jpg" alt="">
+                <img class="img-responsive margin-top-80 margin-bottom-80" src="images/history.png" alt="">
                 <div class="vision-text">
                 <div class="col-lg-5">
                     <h5 class="text-left">our vision</h5>
@@ -52,7 +52,7 @@
         
         <!-- Video -->
         <section class="video-block"> <img class="img-responsive" src="images/video-img.jpg" alt="" >
-        <div class="position-center-center"> <a href="#"> <i class="icon-camcorder"></i>watch video </a> </div>
+        <div class="position-center-center"> <a href="https://www.youtube.com/watch?v=tCszYCYopwE&ab_channel=WondasticTech"> <i class="icon-camcorder"></i>watch video </a> </div>
         </section>
         
         <!-- OUR TEAM -->
@@ -60,7 +60,7 @@
         <div class="container">
             <div class="heading text-center">
             <h4>OUR TEAM</h4>
-            <span>United by love & help to build great brands</span> </div>
+            <span></span> </div>
             
             <!-- TEAM -->
             <ul class="row">
@@ -135,10 +135,10 @@
             <h4>We work with the best</h4>
             <span>We are proud that we have awesome sponsors</span> </div>
             <ul class="clients-img">
-            <li> <img class="img-responsive" src="images/c-img-1.jpg" alt=""> </li>
-            <li> <img class="img-responsive" src="images/c-img-2.jpg" alt=""> </li>
-            <li> <img class="img-responsive" src="images/c-img-3.jpg" alt=""> </li>
-            <li> <img class="img-responsive" src="images/c-img-4.jpg" alt=""> </li>
+            <li> <img class="img-responsive" src="images/bimoli.png" alt=""> </li>
+            <li> <img class="img-responsive" src="images/fortune.png" alt=""> </li>
+            <li> <img class="img-responsive" src="images/sunco.png" alt=""> </li>
+            <li> <img class="img-responsive" src="images/tropicana.png" alt=""> </li>
             </ul>
         </div>
         </section>
