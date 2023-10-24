@@ -82,7 +82,9 @@
                     $('.checkout-all-price').text(`Rp ` + totalCart.toLocaleString('id-ID', {
                         minimumFractionDigits: 0
                     }));
-                    $('#btnPlaceOrder').removeAttr('disabled');
+                    if (totalCart > 0) {
+                        $('#btnPlaceOrder').removeAttr('disabled');
+                    }
                 }
             })
         }

@@ -42,11 +42,8 @@
         </li>
         <li class="margin-0">
             <div class="row">
-                <div class="col-xs-6">
-                    <a href="shopping-cart.html" class="btn">VIEW CART</a>
-                </div>
-                <div class="col-xs-6">
-                    <a href="checkout.html" class="btn">CHECK OUT</a>
+                <div class="col-xs-12">
+                    <a href="{{ route('frontend.checkout') }}" class="btn">CHECK OUT</a>
                 </div>
             </div>
         </li>
