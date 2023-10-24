@@ -110,6 +110,7 @@ return [
     */
 
     'faker_locale' => 'en_US',
+    'fonnte_token' => env('FONNTE'),
 
     /*
     |--------------------------------------------------------------------------
@@ -143,6 +144,7 @@ return [
         'driver' => 'file',
         // 'store'  => 'redis',
     ],
+
 
     /*
     |--------------------------------------------------------------------------
@@ -186,5 +188,4 @@ return [
         // 'Example' => App\Facades\Example::class,
         'Alert' => RealRashid\SweetAlert\Facades\Alert::class,
     ])->toArray(),
-
 ];
