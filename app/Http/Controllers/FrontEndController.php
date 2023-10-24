@@ -92,15 +92,16 @@ class FrontEndController extends Controller
             ]);
         }
 
+        $msg = 'Pembelian\nproduk berhasil dilakukan. Total: ' . $request->total_price . '';
         $http = Http::withHeader('Authorization', 'vUNKUxRjC_+gP7szRTZm')->post('https://api.fonnte.com/send', [
             'target' => auth()->user()->phone,
-            'message' => 'Pembelian produk berhasil dilakukan. Total pembayaran: ' . $request->total_price . '. Terima kasih.',
+            'message' => $msg,
         ])->successful();
 
         if (!$http) {
             return response()->json([
                 'status' => 'error',
-                'message' => 'Pembelian produk berhasil dilakukan. Terjadi kesalahan saat mengirimkan pesan WhatsApp. Silahkan cek WhatsApp untuk melihat total pembayaran.',
+                'message' => 'Pembelian\nproduk berhasil dilakukan. Terjadi kesalahan saat mengirimkan pesan WhatsApp. Silahkan cek WhatsApp untuk melihat total pembayaran.',
             ]);
         }
 
