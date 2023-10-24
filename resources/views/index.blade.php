@@ -372,58 +372,5 @@
                 });
             })
         })
-
-        function fetch_cart() {
-            $.ajax({
-                url: "{{ route('frontend.cart.get') }}",
-                method: "GET",
-                success: function(data) {
-                    $('.cart-items').empty();
-                    console.log(data)
-
-                    // Iterasi melalui data dan buat elemen <li> untuk setiap produk
-                    for (var i = 0; i < data.length; i++) {
-                        var product = data[i];
-
-                        // Buat elemen <li> dan isinya sesuai dengan data produk
-                        var li = $('<li>');
-                        var mediaLeft = $('<div class="media-left">');
-                        var cartImg = $('<div class="cart-img">');
-                        var img = $('<img class="media-object img-responsive" alt="...">');
-                        img.attr('src', product.image_product);
-                        cartImg.append(img);
-                        mediaLeft.append(cartImg);
-
-                        var mediaBody = $('<div class="media-body">');
-                        var heading = $('<h6 class="media-heading">').text(product.name_product);
-
-                        // Menghilangkan simbol mata uang dan mengonversi harga ke tipe data numerik
-                        var priceText = product
-                            .price_product; // Biarkan format harga seperti yang diterima dari data
-                        var price = parseFloat(priceText.replace('Rp', '').replace('.', '').replace(',',
-                            '.')); // Hilangkan simbol "Rp" dan ubah format angka
-                        var priceFormatted = "Rp " + price.toLocaleString('id-ID', {
-                            minimumFractionDigits: 0
-                        }); // Format harga dengan pemisah ribuan
-                        var priceSpan = $('<span class="price">').text(priceFormatted);
-
-                        // Memastikan atribut "quantity" ada dalam data produk
-                        var qty = product.hasOwnProperty('quantity') ? '<span class="qty">QTY: ' + product
-                            .quantity + '</span>' : '';
-
-                        mediaBody.append(heading);
-                        mediaBody.append(priceSpan);
-                        mediaBody.append(qty);
-
-                        li.append(mediaLeft);
-                        li.append(mediaBody);
-
-                        // Tambahkan elemen <li> ke daftar belanja
-                        $('.cart-items').append(li);
-                    }
-
-                }
-            })
-        }
     </script>
 @endsection

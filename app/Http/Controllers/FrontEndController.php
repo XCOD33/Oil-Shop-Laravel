@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Cache;
+use Illuminate\Support\Facades\Http;
 
 class FrontEndController extends Controller
 {
@@ -41,6 +42,7 @@ class FrontEndController extends Controller
 
     public function register_post(Request $request)
     {
+        // \dd($request->all());
         $request->only('first_name', 'last_name', 'email', 'phone', 'password', 'password_confirmation');
 
         $request->validate([
@@ -69,6 +71,46 @@ class FrontEndController extends Controller
         auth()->logout();
 
         return redirect()->route('frontend.index')->with('success', 'You have logged out successfully!');
+    }
+
+    public function checkout()
+    {
+        return view('checkout');
+    }
+
+    public function place_order(Request $request)
+    {
+        $userId = auth()->user()->id;
+        $cacheKey = $userId . ' cart';
+
+        $cache = Cache::get($cacheKey, []);
+
+        if (count($cache) == 0) {
+            return response()->json([
+                'status' => 'error',
+                'message' => 'Tidak ada produk yang dibeli.',
+            ]);
+        }
+
+        $http = Http::withHeader('Authorization', 'vUNKUxRjC_+gP7szRTZm')->post('https://api.fonnte.com/send', [
+            'target' => auth()->user()->phone,
+            'message' => 'Pembelian produk berhasil dilakukan. Total pembayaran: ' . $request->total_price . '. Terima kasih.',
+        ])->successful();
+
+        if (!$http) {
+            return response()->json([
+                'status' => 'error',
+                'message' => 'Pembelian produk berhasil dilakukan. Terjadi kesalahan saat mengirimkan pesan WhatsApp. Silahkan cek WhatsApp untuk melihat total pembayaran.',
+            ]);
+        }
+
+        // Hapus cache
+        Cache::forget($cacheKey);
+
+        return response()->json([
+            'status' => 'success',
+            'message' => 'Pembelian produk berhasil dilakukan. Silahkan cek WhatsApp untuk melihat total pembayaran.',
+        ]);
     }
 
     public function cart_add(Request $request)
