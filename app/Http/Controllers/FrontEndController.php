@@ -92,7 +92,9 @@ class FrontEndController extends Controller
             ]);
         }
 
-        $msg = 'Pembelian\nproduk berhasil dilakukan. Total: ' . $request->total_price . '';
+        $msg = "*Pembelian produk berhasil dilakukan*\n\nProduk yang dibeli:\n" . implode("\n", array_map(function ($item) {
+            return "- *" . $item['name_product'] . '* = ' . $item['price_product'];
+        }, $cache)) . "\n\nTotal: " . $request->total_price . "\n\nTerima kasih.";
         $http = Http::withHeader('Authorization', 'vUNKUxRjC_+gP7szRTZm')->post('https://api.fonnte.com/send', [
             'target' => auth()->user()->phone,
             'message' => $msg,

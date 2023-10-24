@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="" />
     <meta name="author" content="M_Adnan" />
-    <title>ECOSHOP - Multipurpose eCommerce HTML5 Template</title>
+    <title>Nugimen Oil Shop - XCOD33</title>
     <link rel="icon" href="images/logo-nugimen.png" type="image/x-icon">
 
     <!-- SLIDER REVOLUTION 4.x CSS SETTINGS -->
@@ -105,35 +105,40 @@
         @if (route('frontend.login') == url()->current())
             @includeIf('master.front_end.components.sub_banner', [
                 'name' => 'LOGIN',
-                'description' => "Please log in to your account to access your order history, manage your preferences, and expedite your shopping experience. Your account is your portal to seamless shopping with us. Sign in and let's get started."
+                'description' =>
+                    "Please log in to your account to access your order history, manage your preferences, and expedite your shopping experience. Your account is your portal to seamless shopping with us. Sign in and let's get started.",
             ])
         @endif
 
         @if (route('frontend.register') == url()->current())
             @includeIf('master.front_end.components.sub_banner', [
                 'name' => 'REGISTER',
-                'description' => "Register an account with us to enjoy a personalized shopping experience. You'll gain access to exclusive offers, tailored recommendations, and more."
+                'description' =>
+                    "Register an account with us to enjoy a personalized shopping experience. You'll gain access to exclusive offers, tailored recommendations, and more.",
             ])
         @endif
 
         @if (route('frontend.about') == url()->current())
             @includeIf('master.front_end.components.sub_banner', [
                 'name' => 'ABOUT',
-                'description' => 'Learn about the journey that brought us here, our commitment to quality, and our dedication to serving you.'
+                'description' =>
+                    'Learn about the journey that brought us here, our commitment to quality, and our dedication to serving you.',
             ])
         @endif
 
         @if (route('frontend.contact') == url()->current())
             @includeIf('master.front_end.components.sub_banner', [
                 'name' => 'CONTACT',
-                'description' => "Whether you need assistance with an order or simply want to reach out, don't hesitate to contact us. We value your input and are committed to providing excellent customer service. We look forward to hearing from you."
+                'description' =>
+                    "Whether you need assistance with an order or simply want to reach out, don't hesitate to contact us. We value your input and are committed to providing excellent customer service. We look forward to hearing from you.",
             ])
         @endif
 
         @if (route('frontend.checkout') == url()->current())
             @includeIf('master.front_end.components.sub_banner', [
                 'name' => 'CHECKOUT',
-                'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus maximus vehicula. Sed feugiat, tellus vel tristique posuere, diam'
+                'description' =>
+                    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus maximus vehicula. Sed feugiat, tellus vel tristique posuere, diam',
             ])
         @endif
 
