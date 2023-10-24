@@ -57,7 +57,7 @@
                                         <!-- LAST NAME -->
                                         <li class="col-md-6">
                                             <label> *PASSWORD
-                                                <input type="password" name="password_confirm" value=""
+                                                <input type="password" name="password_confirmation" value=""
                                                     placeholder="">
                                             </label>
                                         </li>

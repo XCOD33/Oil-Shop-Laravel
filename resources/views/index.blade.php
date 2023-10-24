@@ -371,6 +371,40 @@
                     }
                 });
             })
+
+            $('.logout').on('click', function() {
+                Swal.fire({
+                    title: 'Are you sure?',
+                    text: "You want to logout?",
+                    icon: 'warning',
+                    showCancelButton: true,
+                    confirmButtonColor: '#d33',
+                    cancelButtonColor: '#3085d6',
+                    confirmButtonText: 'Logout'
+                }).then((result) => {
+                    if (result.isConfirmed) {
+                        $.ajax({
+                            url: "{{ route('frontend.logout') }}",
+                            method: "POST",
+                            data: {
+                                _token: "{{ csrf_token() }}"
+                            },
+                            success: function(response) {
+                                Swal.fire(
+                                    'Logout!',
+                                    'You are logout.',
+                                    'success'
+                                ).then((result) => {
+                                    if (result.isConfirmed) {
+                                        window.location.href =
+                                            "{{ route('frontend.index') }}";
+                                    }
+                                })
+                            }
+                        })
+                    }
+                })
+            })
         })
 
         function fetch_cart() {
@@ -379,8 +413,8 @@
                 method: "GET",
                 success: function(data) {
                     $('.cart-items').empty();
-                    console.log(data)
 
+                    var totalCart = 0;
                     // Iterasi melalui data dan buat elemen <li> untuk setiap produk
                     for (var i = 0; i < data.length; i++) {
                         var product = data[i];
@@ -420,8 +454,12 @@
 
                         // Tambahkan elemen <li> ke daftar belanja
                         $('.cart-items').append(li);
-                    }
 
+                        totalCart += price;
+                    }
+                    $('.total-cart').text(`Rp ` + totalCart.toLocaleString('id-ID', {
+                        minimumFractionDigits: 0
+                    }));
                 }
             })
         }

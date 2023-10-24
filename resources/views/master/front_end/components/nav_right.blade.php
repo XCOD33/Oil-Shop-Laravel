@@ -36,41 +36,8 @@
                 <div class="cart-items">
 
                 </div>
-                {{-- <li>
-                    <div class="media-left">
-                        <div class="cart-img">
-                            <a href="#">
-                                <img class="media-object img-responsive" src="images/cart-img-1.jpg" alt="..." />
-                            </a>
-                        </div>
-                    </div>
-                    <div class="media-body">
-                        <h6 class="media-heading">
-                            WOOD CHAIR
-                        </h6>
-                        <span class="price">129.00 USD</span>
-                        <span class="qty">QTY: 01</span>
-                    </div>
-                </li>
-                <li>
-                    <div class="media-left">
-                        <div class="cart-img">
-                            <a href="#">
-                                <img class="media-object img-responsive" src="images/cart-img-2.jpg" alt="..." />
-                            </a>
-                        </div>
-                    </div>
-                    <div class="media-body">
-                        <h6 class="media-heading">
-                            WOOD STOOL
-                        </h6>
-                        <span class="price">129.00 USD</span>
-                        <span class="qty">QTY: 01</span>
-                    </div>
-                </li>
-                <li> --}}
                 <h5 class="text-center">
-                    SUBTOTAL: 258.00 USD
+                    SUBTOTAL: <strong class="total-cart">Rp</strong>
                 </h5>
         </li>
         <li class="margin-0">

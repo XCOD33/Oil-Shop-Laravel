@@ -41,6 +41,7 @@ class FrontEndController extends Controller
 
     public function register_post(Request $request)
     {
+        // \dd($request->all());
         $request->only('first_name', 'last_name', 'email', 'phone', 'password', 'password_confirmation');
 
         $request->validate([
