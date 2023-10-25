@@ -32,10 +32,10 @@
         <!-- Culture BLOCK -->
         <section class="cultur-block">
         <ul>
-            <li> <img src="images/cultur-img-1.jpg" alt="" > </li>
-            <li> <img src="images/cultur-img-2.jpg" alt="" > </li>
-            <li> <img src="images/cultur-img-3.jpg" alt="" > </li>
-            <li> <img src="images/cultur-img-4.jpg" alt="" > </li>
+            <li> <img src="images/cultur-1.png" alt="" > </li>
+            <li> <img src="images/cultur-2.png" alt="" > </li>
+            <li> <img src="images/cultur-3.png" alt="" > </li>
+            <li> <img src="images/cultur-4.png" alt="" > </li>
         </ul>
         
         <!-- Culture Text -->
@@ -43,15 +43,14 @@
             <div class="container">
             <div class="col-sm-6 center-block">
                 <h4>awesome work culture</h4>
-                <p>Phasellus lacinia fermentutm bibendum. Interdum et malante ipuctus non. Nulla lacinia,
-                eros vel fermentum consectetur, ris dolor in ex. </p>
+                <p>We believe in fostering an environment where creativity flourishes, diversity is celebrated, and personal growth is encouraged. Our team isn't just a collection of individuals; we're a close-knit family united by shared values and an unwavering commitment to excellence.</p>
             </div>
             </div>
         </div>
         </section>
         
         <!-- Video -->
-        <section class="video-block"> <img class="img-responsive" src="images/video-img.jpg" alt="" >
+        <section class="video-block"> <img class="img-responsive" src="images/video-img.png" alt="" >
         <div class="position-center-center"> <a href="https://www.youtube.com/watch?v=tCszYCYopwE&ab_channel=WondasticTech"> <i class="icon-camcorder"></i>watch video </a> </div>
         </section>
         

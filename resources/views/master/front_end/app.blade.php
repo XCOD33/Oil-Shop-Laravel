@@ -138,7 +138,7 @@
             @includeIf('master.front_end.components.sub_banner', [
                 'name' => 'CHECKOUT',
                 'description' =>
-                    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus maximus vehicula. Sed feugiat, tellus vel tristique posuere, diam',
+                    'Our checkout process is designed to make your purchase as smooth and secure as possible. Review your selections, enter your shipping information, and choose your preferred payment method.',
             ])
         @endif
 
